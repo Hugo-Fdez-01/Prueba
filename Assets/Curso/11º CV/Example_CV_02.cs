@@ -7,5 +7,10 @@ namespace Course.CV
     public class Example_CV_02 : MonoBehaviour
     {
         string title;
+
+        private void Start()
+        {
+            title = "Pistol";
+        }
     }
 }
